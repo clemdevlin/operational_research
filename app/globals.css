@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.site-header {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-main {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
