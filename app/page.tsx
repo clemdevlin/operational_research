@@ -1,11 +1,16 @@
+import Workbench from "../components/lp-workbench";
 export default function HomePage() {
   return (
-    <section>
-      <h1>Linear Programming</h1>
-      <p>
-        The first topic on this site. The interactive graphical solver will be added in the next phase of
-        development.
-      </p>
-    </section>
+    <>
+      <div className="intro">
+        <p className="eyebrow">TOPIC 01 · GRAPHICAL METHOD</p>
+        <h1>Linear Programming</h1>
+        <p>
+          Turn constraints into a picture. Find the best feasible solution, then
+          move a slider to see what changes.
+        </p>
+      </div>
+      <Workbench />
+    </>
   );
 }
