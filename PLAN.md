@@ -47,3 +47,16 @@ A Next.js website where a student enters a two-variable LP problem, sees the fea
 - Initial commits go straight to `main`.
 - Each feature gets its own branch (e.g. `feat/project-setup`, `feat/lp-solver`), then a pull request into `main`.
 - Pull requests are reviewed before merging.
+
+## Implementation status
+
+Phase 1 application features are implemented on `feat/lp-solver`: independent solver and tests, coefficient input form, SVG graph and feasible region, objective result and optional corner table, live RHS sliders, edge-case messages, and responsive layout.
+
+Decisions used for this implementation:
+- Structured coefficient fields, with up to eight constraints.
+- Nonnegative x and y by default, with an explicit opt-out.
+- Corner-point table visible by default and optional.
+- Local development/production startup; public deployment is deferred.
+- Analytic textbook-style test cases are included. Validation against the user's specific course notes remains pending because those notes are not in the repository.
+
+See README.md for setup, tests, numerical limitations, and the worked example. Accounts, databases, simplex and additional topics remain out of scope.

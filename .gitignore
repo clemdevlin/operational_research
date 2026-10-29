@@ -20,3 +20,8 @@ npm-debug.log*
 
 # typescript
 *.tsbuildinfo
+
+# generated framework declarations and browser reports
+next-env.d.ts
+playwright-report/
+test-results/
